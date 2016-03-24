@@ -28,6 +28,7 @@ def main():
     for i in range(0, 30):
         wait(driver.find_element_by_id('sb_form_q').send_keys(words.get_random_word()))
         wait(driver.find_element_by_id('sb_form_go').click(), random.randrange(3, 10))
+        driver.find_element_by_id('sb_form_q').clear()
 
 if __name__ == "__main__":
     main()
