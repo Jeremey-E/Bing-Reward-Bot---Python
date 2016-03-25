@@ -8,9 +8,9 @@ python make_money [username] [password]
 
 ### TODO:
 
-Perform bonus search.
-Validate username and password.
-Locally store username and password (only if it can be encrypted properly).
+* Perform bonus search.
+* Validate username and password.
+* Locally store username and password (only if it can be encrypted properly).
 
 ### Sources:
 
