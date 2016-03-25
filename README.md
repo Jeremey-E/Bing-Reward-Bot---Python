@@ -2,14 +2,16 @@
 
 Signs user into Microsoft account and performs 30 searches using words from a text file.
 
-Usage:
+### Usage:
 
 python make_money [username] [password]
 
-TODO:
+### TODO:
 
-Change user-agent for mobile searches.
+Perform bonus search.
+Validate username and password.
+Locally store username and password (only if it can be encrypted properly).
 
-Sources:
+### Sources:
 
 words.txt from http://www-01.sil.org/linguistics/wordlists/english/
