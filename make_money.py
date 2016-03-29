@@ -29,12 +29,14 @@ def perform_searches(driver, words, num_searches):
 
 
 def main():
+    if len(sys.argv) > 2:
+        keyring.set_password(__service_name__, sys.argv[1], sys.argv[2])
+
+
     if len(sys.argv) < 2 or keyring.get_password(__service_name__, sys.argv[1]) is None:
         print('Please valid enter username and password!')
         return
 
-    if len(sys.argv) > 2:
-        keyring.set_password(__service_name__, sys.argv[1], sys.argv[2])
 
     words = RandomWords()
     driver = webdriver.Firefox()

@@ -14,9 +14,10 @@ Enter only the username when password has been stored and does not need to be up
 
 ### TODO:
 
+* Generate multi-word phrase.
+* Locally store username.
 * Perform bonus search.
 * Validate username and password.
-* Locally store username.
 
 ### Sources:
 
