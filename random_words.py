@@ -1,4 +1,4 @@
-__author__ = 'Jeremey Ebenezer'
+# words.txt from http://www-01.sil.org/linguistics/wordlists/english/
 
 import random
 
