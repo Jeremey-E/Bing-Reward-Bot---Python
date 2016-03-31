@@ -9,3 +9,6 @@ class RandomWords:
 
     def get_random_word(self):
         return random.choice(self.word_list)
+
+    def get_random_phrase(self, num_words=4):
+        return ''.join(random.choice(self.word_list) + ' ' for i in range(num_words))

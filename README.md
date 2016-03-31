@@ -14,11 +14,12 @@ Enter only the username when password has been stored and does not need to be up
 
 ### TODO:
 
-* Generate multi-word phrase.
-* Locally store username.
 * Perform bonus search.
 * Validate username and password.
+* Get current popular search terms.
 
 ### Sources:
 
 words.txt from http://www-01.sil.org/linguistics/wordlists/english/
+
+DISCLAIMER: Use at your own risk. It is your responsibility to secure your password and it is not my problem if you get banned by MS.
